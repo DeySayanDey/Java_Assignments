@@ -11,7 +11,7 @@ public class CalculationExample {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter a number to calculate its factorial: ");
-        int num = scanner.nextInt();
+        Integer num = Integer.valueOf(scanner.nextInt());
         System.out.println("Factorial of " + num + " is: " + calc.factorial(num));
 
         System.out.print("Enter a number to check if it is prime: ");
